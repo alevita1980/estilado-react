@@ -1,0 +1,54 @@
+.body{
+    max-height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-image: url("./fondo.png");
+    background-color: #3E3E3E;
+    position: static;
+    
+}
+
+.cardsContainer{
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-top: 10px;
+    margin-block-end: 5px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    align-content: stretch;
+}
+
+.picture{
+    width: 166px;
+    height: 166px;
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.33);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+
+.details{
+    width: 166px;
+    height: 166px;
+    left: 184px;
+    top: 192px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(98.94deg, #BE3B7A 0%, #640D99 55.01%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: marvel;
+    line-height: 10px;
+}
+
+.color1{
+    background-color: #3E3E3E;
+}
+
+.color2{
+    background: linear-gradient(98.94deg, #BE3B7A 0%, #640D99 55.01%);   
+}
